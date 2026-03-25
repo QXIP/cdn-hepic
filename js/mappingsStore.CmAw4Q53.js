@@ -1,1 +1,0 @@
-import{ej as r}from"./index.otwaXND5.js";const i=r((a,s)=>({mappings:[],setMappings:p=>a({mappings:p}),getMappingsByDashboardId:p=>s().mappings?.filter(e=>e.dashboardId===p),reset:()=>a({mappings:[]})}));export{i as useMappingsStore};
