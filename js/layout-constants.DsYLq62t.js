@@ -1,0 +1,1 @@
+import{en as o,eo as e}from"./index.BnH2pPO9.js";const r=Object.freeze(Object.defineProperty({__proto__:null,SeverityPill:o,SipDoctorTab:e,default:e},Symbol.toStringTag,{value:"Module"})),_="3.5rem",a="4.5rem";export{_ as F,a,r as i};

@@ -1,1 +1,0 @@
-import{Z as s,_ as c,$ as i}from"./index.Be_kCi9T.js";const S=()=>{const e=s.getState(),a=c.getState(),t=a.activeTabId||e.activeTabId;if(!t)return{};const o=a.tabInputValues[t]?.node?.value,r=Array.isArray(o)?o.map(String).filter(n=>n!==""):[];return r.length>0?{node:r}:i(e.tabs[t]?.config)};export{S as g};
