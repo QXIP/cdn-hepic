@@ -1,1 +1,0 @@
-import{h0 as s,bC as c,h1 as i}from"./index.k52TAdfk.js";const b=()=>{const e=s.getState(),a=c.getState(),t=a.activeTabId||e.activeTabId;if(!t)return{};const o=a.tabInputValues[t]?.node?.value,r=Array.isArray(o)?o.map(String).filter(n=>n!==""):[];return r.length>0?{node:r}:i(e.tabs[t]?.config)};export{b as g};
