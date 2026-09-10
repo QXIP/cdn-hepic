@@ -2,8 +2,8 @@ import moment from 'moment';
 
 import type { CallCDRData } from '@/helpers/timeline-utils';
 import { calculateTimelineData } from '@/helpers/timeline-utils';
-import { SRTCP_METRIC_PLACEHOLDER, SRTCP_SOURCE, isSrtcpReport } from '@/helpers/srtcp';
-import { mediaReportTypeItem } from '@/helpers/protocol-descriptor';
+import { resolveMediaReportTypeItem } from '@/helpers/protocol-descriptor';
+import { SRTCP_METRIC_PLACEHOLDER, SRTCP_SOURCE } from '@/helpers/srtcp';
 import {
     normalizeMediaReportMessages,
     normalizeMediaReportMetrics,
@@ -86,7 +86,13 @@ function transformQOSData(data: any): any {
                             ? JSON.parse(report.message)
                             : report.message;
 
-                    const typeItem = mediaReportTypeItem(report.proto, parsedMessage);
+                    const typeItem = resolveMediaReportTypeItem(
+                        report.proto,
+                        parsedMessage,
+                        report.typeItem,
+                        report.type,
+                        report.messageType
+                    );
 
                     const messageObj = normalizeMediaReportMetrics(parsedMessage);
 
