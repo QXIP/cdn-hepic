@@ -1,13 +1,11 @@
 import moment from 'moment';
 
-import type { CallCDRData } from '@/helpers/timeline-utils';
-import { calculateTimelineData } from '@/helpers/timeline-utils';
 import { resolveMediaReportTypeItem } from '@/helpers/protocol-descriptor';
 import { SRTCP_METRIC_PLACEHOLDER, SRTCP_SOURCE } from '@/helpers/srtcp';
-import {
-    normalizeMediaReportMessages,
-    normalizeMediaReportMetrics,
-} from './media-report-metrics';
+import type { CallCDRData } from '@/helpers/timeline-utils';
+import { calculateTimelineData } from '@/helpers/timeline-utils';
+
+import { normalizeMediaReportMessages, normalizeMediaReportMetrics } from './media-report-metrics';
 
 const getAliasByIp = (ip: any, withPort = false, alias: any = null) => {
     if (!alias) {
@@ -139,12 +137,17 @@ function transformQOSData(data: any): any {
 
         let cdrData: CallCDRData | undefined;
 
-        if (data.data.calldata || data.data.call) {
-            const callInfo = data.data.calldata || data.data.call;
+        if (data.data.transaction || data.data.calldata || data.data.call) {
+            const callInfo =
+                (Array.isArray(data.data.transaction) && data.data.transaction.length > 0
+                    ? data.data.transaction
+                    : undefined) ||
+                data.data.calldata ||
+                data.data.call;
             const calls = Array.isArray(callInfo) ? callInfo : [callInfo];
 
             const cdrConnectTimes = calls
-                .map((c: any) => c.cdr_connect || c.connect_time || c.setup_time)
+                .map((c: any) => c.cdr_connect || c.connect_time || c.setup_time || c.cdr_start)
                 .filter((t: number) => t && t > 0);
             const cdrStopTimes = calls
                 .map((c: any) => c.cdr_stop || c.disconnect_time || c.end_time)
