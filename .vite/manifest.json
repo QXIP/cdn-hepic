@@ -1,0 +1,334 @@
+{
+  "../hepic-interface/src/assets/img/gateways/exchange.png": {
+    "file": "img/exchange.-ac_l7uN.png",
+    "src": "../hepic-interface/src/assets/img/gateways/exchange.png"
+  },
+  "../hepic-interface/src/assets/img/gateways/monster.png": {
+    "file": "img/monster.ButxP3uN.png",
+    "src": "../hepic-interface/src/assets/img/gateways/monster.png"
+  },
+  "../hepic-interface/src/features/call-info/TabCallinfo.tsx": {
+    "file": "js/TabCallinfo.Bmru4aME.js",
+    "name": "TabCallinfo",
+    "src": "../hepic-interface/src/features/call-info/TabCallinfo.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_quality-chart-data.CotiiX4I.js",
+      "_MetricPresets.CRMKO1ib.js",
+      "_tooltip_extand.rc5ux0My.js",
+      "_severity-pill.Dt9Gr7zA.js",
+      "_metric-box.CH8N47GU.js",
+      "_circle-question-mark.DqCh_cHv.js",
+      "_methods-pie-chart.BnRmBIoS.js",
+      "_triangle-alert.Dqfc9xCp.js",
+      "_shield-alert.DfE2XGas.js"
+    ]
+  },
+  "../hepic-interface/src/features/dtmf/dtmf-tab.tsx": {
+    "file": "js/dtmf-tab.B301SLYv.js",
+    "name": "dtmf-tab",
+    "src": "../hepic-interface/src/features/dtmf/dtmf-tab.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_metric-box.CH8N47GU.js",
+      "_TabShell.R8vBdiji.js",
+      "_circle-question-mark.DqCh_cHv.js"
+    ],
+    "css": [
+      "css/dtmf-tab.BkJ4r-Y_.css"
+    ]
+  },
+  "../hepic-interface/src/features/flow/Flow.tsx": {
+    "file": "js/Flow.BqeKhn2U.js",
+    "name": "Flow",
+    "src": "../hepic-interface/src/features/flow/Flow.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_message-display-id.BYHVdael.js",
+      "_tooltip_extand.rc5ux0My.js",
+      "_label.B3G3mwne.js",
+      "_permissions.service.BjvsjnCR.js",
+      "_lock.CUWaINiS.js",
+      "_download.DtHoerU5.js",
+      "_sip-flow-method.BqPidW6o.js",
+      "_triangle-alert.Dqfc9xCp.js",
+      "_shield-alert.DfE2XGas.js"
+    ],
+    "css": [
+      "css/Flow.DO3rV9D0.css"
+    ],
+    "assets": [
+      "img/exchange.-ac_l7uN.png",
+      "img/monster.ButxP3uN.png"
+    ]
+  },
+  "../hepic-interface/src/features/graph-network/GraphNetwork.tsx": {
+    "file": "js/GraphNetwork.B1dpQG2c.js",
+    "name": "GraphNetwork",
+    "src": "../hepic-interface/src/features/graph-network/GraphNetwork.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_methods-pie-chart.BnRmBIoS.js",
+      "_media-stream-warnings.DCip79Ar.js",
+      "_severity-pill.Dt9Gr7zA.js",
+      "_MetricPresets.CRMKO1ib.js",
+      "_message-display-id.BYHVdael.js",
+      "_triangle-alert.Dqfc9xCp.js",
+      "_shield-alert.DfE2XGas.js",
+      "_label.B3G3mwne.js",
+      "_phone.B1i8RvlW.js",
+      "_circle-question-mark.DqCh_cHv.js"
+    ],
+    "css": [
+      "css/GraphNetwork.BzeaocwB.css"
+    ]
+  },
+  "../hepic-interface/src/features/media-reports/mediareport.tsx": {
+    "file": "js/mediareport.BP4KNTWH.js",
+    "name": "mediareport",
+    "src": "../hepic-interface/src/features/media-reports/mediareport.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_TabShell.R8vBdiji.js",
+      "_card.DPDVioX5.js",
+      "_MetricPresets.CRMKO1ib.js",
+      "_media-stream-warnings.DCip79Ar.js",
+      "_lock.CUWaINiS.js",
+      "_triangle-alert.Dqfc9xCp.js",
+      "_quality-chart-data.CotiiX4I.js"
+    ],
+    "css": [
+      "css/mediareport.CwrZd1sa.css"
+    ]
+  },
+  "../hepic-interface/src/features/recording/recording.tsx": {
+    "file": "js/recording.DE1tc56L.js",
+    "name": "recording",
+    "src": "../hepic-interface/src/features/recording/recording.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_card.DPDVioX5.js",
+      "_TabShell.R8vBdiji.js",
+      "_download.DtHoerU5.js"
+    ]
+  },
+  "../hepic-interface/src/features/search-details/logs-tab.tsx": {
+    "file": "js/logs-tab.DaTVEysi.js",
+    "name": "logs-tab",
+    "src": "../hepic-interface/src/features/search-details/logs-tab.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "../hepic-interface/src/features/sip-doctor/index.ts": {
+    "file": "js/index.DAeE380b.js",
+    "name": "index",
+    "src": "../hepic-interface/src/features/sip-doctor/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_permissions.service.BjvsjnCR.js",
+      "_severity-pill.Dt9Gr7zA.js",
+      "_triangle-alert.Dqfc9xCp.js",
+      "_shield-alert.DfE2XGas.js"
+    ]
+  },
+  "../hepic-interface/src/features/tdr/tdr-tab.tsx": {
+    "file": "js/tdr-tab.CIPJMe-H.js",
+    "name": "tdr-tab",
+    "src": "../hepic-interface/src/features/tdr/tdr-tab.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_TabShell.R8vBdiji.js"
+    ]
+  },
+  "../hepic-interface/src/features/time-line/time-line.tsx": {
+    "file": "js/time-line.CSfzaOU1.js",
+    "name": "time-line",
+    "src": "../hepic-interface/src/features/time-line/time-line.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_message-display-id.BYHVdael.js",
+      "_phone.B1i8RvlW.js"
+    ],
+    "css": [
+      "css/time-line.D8bHja5F.css"
+    ]
+  },
+  "../hepic-interface/src/helpers/parser.ts": {
+    "file": "js/parser.qgxtVgi-.js",
+    "name": "parser",
+    "src": "../hepic-interface/src/helpers/parser.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_sip-flow-method.BqPidW6o.js"
+    ]
+  },
+  "_MetricPresets.CRMKO1ib.js": {
+    "file": "js/MetricPresets.CRMKO1ib.js",
+    "name": "MetricPresets",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_TabShell.R8vBdiji.js": {
+    "file": "js/TabShell.R8vBdiji.js",
+    "name": "TabShell",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_card.DPDVioX5.js": {
+    "file": "js/card.DPDVioX5.js",
+    "name": "card",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_circle-question-mark.DqCh_cHv.js": {
+    "file": "js/circle-question-mark.DqCh_cHv.js",
+    "name": "circle-question-mark",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_download.DtHoerU5.js": {
+    "file": "js/download.DtHoerU5.js",
+    "name": "download",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_label.B3G3mwne.js": {
+    "file": "js/label.B3G3mwne.js",
+    "name": "label",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_lock.CUWaINiS.js": {
+    "file": "js/lock.CUWaINiS.js",
+    "name": "lock",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_media-stream-warnings.DCip79Ar.js": {
+    "file": "js/media-stream-warnings.DCip79Ar.js",
+    "name": "media-stream-warnings",
+    "imports": [
+      "index.html",
+      "_MetricPresets.CRMKO1ib.js",
+      "_triangle-alert.Dqfc9xCp.js"
+    ]
+  },
+  "_message-display-id.BYHVdael.js": {
+    "file": "js/message-display-id.BYHVdael.js",
+    "name": "message-display-id"
+  },
+  "_methods-pie-chart.BnRmBIoS.js": {
+    "file": "js/methods-pie-chart.BnRmBIoS.js",
+    "name": "methods-pie-chart",
+    "imports": [
+      "index.html",
+      "_circle-question-mark.DqCh_cHv.js"
+    ]
+  },
+  "_metric-box.CH8N47GU.js": {
+    "file": "js/metric-box.CH8N47GU.js",
+    "name": "metric-box",
+    "imports": [
+      "index.html",
+      "_circle-question-mark.DqCh_cHv.js"
+    ]
+  },
+  "_permissions.service.BjvsjnCR.js": {
+    "file": "js/permissions.service.BjvsjnCR.js",
+    "name": "permissions.service",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_phone.B1i8RvlW.js": {
+    "file": "js/phone.B1i8RvlW.js",
+    "name": "phone",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_quality-chart-data.CotiiX4I.js": {
+    "file": "js/quality-chart-data.CotiiX4I.js",
+    "name": "quality-chart-data",
+    "imports": [
+      "index.html",
+      "_MetricPresets.CRMKO1ib.js"
+    ]
+  },
+  "_severity-pill.Dt9Gr7zA.js": {
+    "file": "js/severity-pill.Dt9Gr7zA.js",
+    "name": "severity-pill",
+    "imports": [
+      "index.html",
+      "_triangle-alert.Dqfc9xCp.js",
+      "_shield-alert.DfE2XGas.js"
+    ]
+  },
+  "_shield-alert.DfE2XGas.js": {
+    "file": "js/shield-alert.DfE2XGas.js",
+    "name": "shield-alert",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_sip-flow-method.BqPidW6o.js": {
+    "file": "js/sip-flow-method.BqPidW6o.js",
+    "name": "sip-flow-method"
+  },
+  "_tooltip_extand.rc5ux0My.js": {
+    "file": "js/tooltip_extand.rc5ux0My.js",
+    "name": "tooltip_extand",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_triangle-alert.Dqfc9xCp.js": {
+    "file": "js/triangle-alert.Dqfc9xCp.js",
+    "name": "triangle-alert",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "js/index.ghnVGlN0.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "../hepic-interface/src/features/call-info/TabCallinfo.tsx",
+      "../hepic-interface/src/features/flow/Flow.tsx",
+      "../hepic-interface/src/features/time-line/time-line.tsx",
+      "../hepic-interface/src/features/dtmf/dtmf-tab.tsx",
+      "../hepic-interface/src/features/graph-network/GraphNetwork.tsx",
+      "../hepic-interface/src/features/media-reports/mediareport.tsx",
+      "../hepic-interface/src/features/recording/recording.tsx",
+      "../hepic-interface/src/features/tdr/tdr-tab.tsx",
+      "../hepic-interface/src/features/search-details/logs-tab.tsx",
+      "../hepic-interface/src/features/search-details/logs-tab.tsx",
+      "../hepic-interface/src/features/sip-doctor/index.ts",
+      "../hepic-interface/src/helpers/parser.ts"
+    ],
+    "css": [
+      "css/index.Dpa5r9-E.css"
+    ]
+  }
+}
